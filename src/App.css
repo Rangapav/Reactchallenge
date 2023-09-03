@@ -36,3 +36,125 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.salon-booking {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.room {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.room h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.time-slots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.time-slot {
+  background-color: green;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.time-slot:hover {
+  background-color: #007bff;
+}
+
+.time-slot.booked {
+  background-color: red;
+  cursor: not-allowed;
+}
+
+.time-slot.selected {
+  background-color: blue;
+  cursor: not-allowed;
+}
+
+.cancel-button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  background-color: #ff3333;
+}
+marquee{
+  background-color: lightpink;
+  font-size: large;
+}
+h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  background:lightcyan;
+  padding: 30px;
+}
+body{
+  background-color:orange;
+}
+h4{
+  font-variant-caps: all-petite-caps;
+  font-size: larger;
+  color: lightcoral;
+}
+table{
+  background-image: "data:image/jpeg;base64,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";
+  background-color: #6933ff;
+}
