@@ -1,3 +1,28 @@
+Mini Slot Booking System using Reactjs Framework,Javascript and web technologies using HTML and CSS
+
+This Slot booking system is made with 3 components having SlotBooking.js,Room.js,TimeSlot.js..
+
+App.js: The main component of the application. It displays a welcome message and renders the SlotBooking component.
+
+SlotBooking.js: This component represents the slot booking section. It renders six room components from Monday-saturday, each with a unique name. Users can book slots in these rooms.
+
+Room.js: For each room, this component displays a list of available time slots. Users can click on a slot to book it (in green) or cancel a booked slot (in blue if selected). Only one slot can be booked at a time.
+
+TimeSlot.js: Represents individual time slots. It handles slot booking and cancellation. Clicking on a slot books it if available (green), cancels it if booked (blue), or alerts the user if the slot is already booked (red).
+
+App.css : These CSS files provide basic styling for the application, including room cards, time slots, and buttons. Green slots are available, red slots are already booked, and blue slots are selected for booking or cancellation.
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
