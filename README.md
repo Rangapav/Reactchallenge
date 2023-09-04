@@ -4,7 +4,7 @@ This Slot booking system is made with 3 components having SlotBooking.js,Room.js
 
 App.js: The main component of the application. It displays a welcome message and renders the SlotBooking component.
 
-SlotBooking.js: This component represents the slot booking section. It renders six room components from Monday-saturday, each with a unique name. Users can book slots in these rooms.
+SlotBooking.js/saloonBooking.js: This component represents the slot booking section. It renders six room components from Monday-saturday, each with a unique name. Users can book slots in these rooms.
 
 Room.js: For each room, this component displays a list of available time slots. Users can click on a slot to book it (in green) or cancel a booked slot (in blue if selected). Only one slot can be booked at a time.
 
